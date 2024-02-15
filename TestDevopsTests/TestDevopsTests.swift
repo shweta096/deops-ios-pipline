@@ -19,6 +19,7 @@ final class TestDevopsTests: XCTestCase {
     }
 
     func testExample() throws {
+        XCTAssertEqual(2*2, 4)
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         // Any test you write for XCTest can be annotated as throws and async.
